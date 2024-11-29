@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="single">
+        <!-- 字体大小选项 -->
+        <item
+            android:id="@+id/action_font_size_small"
+            android:title="小"
+            />
+        <item
+            android:id="@+id/action_font_size_medium"
+            android:title="中" />
+        <item
+            android:id="@+id/action_font_size_large"
+            android:title="大" />
+        <!-- 普通菜单项 -->
+        <item
+            android:id="@+id/action_common"
+            android:title="普通菜单项" />
+        <!-- 字体颜色选项 -->
+        <item
+            android:id="@+id/action_font_color_red"
+            android:title="红色" />
+        <item
+            android:id="@+id/action_font_color_black"
+            android:title="黑色" />
+    </group>
+</menu>
